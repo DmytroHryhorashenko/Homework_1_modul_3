@@ -27,9 +27,11 @@ def get_numbers_ticket(min_val, max_val, quantity):
 lottery_numbers = get_numbers_ticket(1, 49, 6)
 print("Ваші лотерейні числа:", lottery_numbers)
 
-# 3.Функція normalize_phone(необов’язкове)
-import re
 
+
+# 3.Функція normalize_phone(необов’язкове)
+
+import re
 
 def normalize_phone(phone_number):
     phone_number = phone_number.strip()
